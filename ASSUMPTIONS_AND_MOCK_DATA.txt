@@ -1,0 +1,161 @@
+================================================================================
+              ZULU'S HOME BAKES - WEBSITE DEMO ASSUMPTIONS & MOCK DATA
+================================================================================
+File Generated: 2026-11-18
+Project: Zulu's Home Bakes Demo Website (Single Page Presentation)
+Target Instagram Profile: https://www.instagram.com/zulus_bakes/
+Workspace: d:\codes\zulus bakes\
+
+This document outlines all the REAL information extracted directly from the 
+official @zulus_bakes Instagram page versus the ASSUMED / PLACEHOLDER (MOCK) 
+data introduced to make the demo website functional, interactive, and visually 
+compelling for presentation to the business owner.
+
+--------------------------------------------------------------------------------
+1. REAL INFORMATION EXTRACTED FROM INSTAGRAM (@zulus_bakes)
+--------------------------------------------------------------------------------
+The following details are 100% authentic and extracted directly from their live 
+Instagram profile:
+
+• Brand Name: 
+  "ZULU'S HOME BAKES" (Handle: @zulus_bakes)
+
+• Official Tagline / Bio: 
+  "A Home Grown Indulgence 💗"
+  "📍based in : Kasaragod"
+  "| Cakes | Hampers | Sweet Treats |"
+  "🖇️Follow the link below to reach out"
+
+• Brand Logo / Profile Picture:
+  The circular profile avatar was extracted and downloaded locally to 
+  'assets/images/logo.jpg'.
+
+• Real Community Statistics:
+  - 10,100+ Followers
+  - 1,940+ Published Posts / Creations
+
+• 12 Authentic Creation Photos & Original Captions:
+  The 12 main showcase photos ('post_1.jpg' through 'post_12.jpg') are actual 
+  photographs of cakes baked by Zulu's Bakes, downloaded directly from their feed:
+  1. Post #1: Italian Lambeth Ruffle Cake (Original caption: "Italian cakes are having their moment! ✨")
+  2. Post #2: Mocha Teddy Milestone Cake (Original caption: "🧸🤎")
+  3. Post #3: All-in-brown beige minimalist cake (Original caption: "All in brown beige theme🤎🤍")
+  4. Post #4: Baby shower cake (Original caption: "Tiny treasure for their little blessing! 🥺")
+  5. Post #5: Welcome baby / newborn cake (Original caption: "Welcoming the newest blessing! 🤍")
+  6. Post #6: Floral romance celebration cake (Original caption: "🤎🤍💕")
+  7. Post #7: Champions football cake (Original caption: "⚽️🖤🤍")
+  8. Post #8: Coquette vintage pink cake (Original caption: "Vintage in pink🎀")
+  9. Post #9: Two-tier engagement cake (Original caption: "🤍🩶 #engagementcakes")
+  10. Post #10: Anniversary cake (Original caption: "Making their anniversary so special 🤍🩶")
+  11. Post #11: Crimson velvet vintage heart cake (Original caption: "♥️🤍")
+  12. Post #12: Groom-to-be monochrome cake (Original caption: "Groom to be 🖤🤍")
+
+• Geographical Location:
+  Kasaragod district (specifically Kumbla / Kasaragod town area, Kerala).
+
+
+--------------------------------------------------------------------------------
+2. ASSUMPTIONS & MOCK / PLACEHOLDER DATA (NOT REAL / NOT FROM OWNER)
+--------------------------------------------------------------------------------
+Because Instagram home bakeries rarely publish exact pricing spreadsheets, 
+phone numbers, or full flavor catalogs publicly in their feed, the following 
+assumptions and placeholder details were created to make the website rich, 
+functional, and demo-ready:
+
+A. PRICING & STARTING RATES:
+   • Instagram Status: No prices are listed publicly on their Instagram posts 
+     (standard practice for custom cake artists who quote per order via DM/WhatsApp).
+   • Assumption Used: Realistic boutique home-baker rates for Kerala:
+     - Bento cakes (350g - 0.5kg): Starting from ₹550
+     - Standard custom designer cakes (1kg): Starting from ₹1,100 - ₹1,350
+     - Grand 2-tier wedding/engagement cakes (2kg+): Starting from ₹2,600
+     - Box of 6 artisanal brownies: Starting from ₹480
+     - Box of 6 gourmet cupcakes: Starting from ₹420
+     - Luxury curated gift hampers: Starting from ₹1,450 - ₹1,650
+   • Action Needed: The owner should update these starting prices to reflect 
+     their actual pricing chart.
+
+B. INTERACTIVE CAKE PRICE ESTIMATOR LOGIC:
+   • The pricing calculator in the estimator tool uses an algorithmic estimate:
+     - Bento: ~₹550 base
+     - 1.0 kg: ~₹1,150 base
+     - 1.5 kg: ~₹1,650 base
+     - 2.0 kg: ~₹2,300 base
+     - 3.0 kg: ~₹3,400 base
+     - Multipliers for design complexity (Minimalist: 0.95x, Vintage Lambeth: 1.05x, 
+       Custom Themed: 1.18x, 2-Tier Grand: 1.25x)
+     - Surcharges for premium flavors (+₹150 for Lotus Biscoff / Nutella / Pistachio).
+   • Status: Simulated formula for interactive client presentation. The owner 
+     can easily adjust these coefficients or turn this into a quote-request-only form.
+
+C. WHATSAPP PHONE NUMBER:
+   • Instagram Status: The bio points to an external link or DM rather than 
+     plain text phone number.
+   • Assumption Used: Placeholder dummy number '919000000000' in 'assets/js/main.js' 
+     and 'index.html'.
+   • Action Needed: Replace '919000000000' with the owner's real WhatsApp phone 
+     number (e.g., in assets/js/main.js at line 5: const WHATSAPP_PHONE = "91XXXXXXXXXX").
+
+D. SPECIFIC FLAVORS & SPONGE FILLING CATALOG:
+   • Instagram Status: Posts visually show flavors like chocolate truffle, red 
+     velvet, mocha, and fruit cakes, but a full written flavor menu was not 
+     publicly pinned.
+   • Assumption Used: We curated a menu of high-end home bakery favorites:
+     - Belgian Chocolate Truffle
+     - Red Velvet with Whipped Cream Cheese
+     - Lotus Biscoff Crunch
+     - Rose Pistachio & Cardamom
+     - Nutella Hazelnut Praline
+     - Madagascar Vanilla & Fresh Berry Coulis
+   • Action Needed: Replace or refine with the baker's exact flavor list and 
+     seasonal specialties.
+
+E. CUSTOMER TESTIMONIALS & REVIEWS:
+   • Instagram Status: Customer compliments appear in story highlights and DMs 
+     which are private or expired.
+   • Assumption Used: 4 realistic local client testimonials representing Kasaragod, 
+     Kumbla, and Vidyanagar residents (e.g. Aysha Mariyam, Fathima Raziya, 
+     Sneha & Varun, Mohammed Shafi) praising cake texture, punctual delivery, 
+     and vintage piping.
+   • Action Needed: Replace with actual WhatsApp screenshot reviews or verbatim 
+     client testimonials with owner permission.
+
+F. STOCK IMAGERY FOR NON-CAKE CATEGORIES:
+   • Instagram Status: The extracted Instagram feed samples focused heavily on 
+     celebration cakes.
+   • Assumption Used: To ensure the "Luxury Gift Hampers", "Sweet Treats & Brownies", 
+     and "Bento & Cupcake Sets" tabs look visually stunning during the demo presentation, 
+     6 high-resolution royalty-free photos were sourced for:
+     - hamper_1.jpg, hamper_2.jpg, hamper_3.jpg (Luxury gift boxes with ribbons)
+     - treats_1.jpg (Fudgy brownies)
+     - treats_2.jpg (Floral frosted cupcakes)
+     - treats_3.jpg (French macarons)
+     - bento_1.jpg (Korean bento cake)
+   • Action Needed: Replace these auxiliary photos with the owner's actual 
+     hamper boxes, brownie platters, and cupcakes when they provide them.
+
+G. POLICIES, LEAD TIMES & FAQ ANSWERS:
+   • Lead time recommendation: 2-3 days for custom cakes; 4-7 days for wedding tiers.
+   • Preparation: 100% Eggless / Vegetarian options available upon request.
+   • Delivery radius: Kasaragod town, Kumbla, Uppala, Mogral, Vidyanagar, Kanhangad.
+   • Status: Standard industry practice assumptions for home bakeries in Kerala.
+
+--------------------------------------------------------------------------------
+3. HOW TO PERSONALIZE THESE ASSUMPTIONS WHEN PRESENTING TO THE OWNER
+--------------------------------------------------------------------------------
+1. To change the WhatsApp Number:
+   Open: d:\codes\zulus bakes\assets\js\main.js
+   Edit Line 5: const WHATSAPP_PHONE = "91XXXXXXXXXX";
+
+2. To update product prices, flavors, or descriptions:
+   Open: d:\codes\zulus bakes\assets\js\products-data.js
+   Edit any product object's 'priceFrom', 'spongeOptions', or 'description'.
+
+3. To update testimonials:
+   Open: d:\codes\zulus bakes\assets\js\products-data.js
+   Edit the 'TESTIMONIALS_DATA' array.
+
+4. To swap placeholder hamper/treat photos with real photos:
+   Drop real photos into 'assets/images/' and update the image paths in 
+   'assets/js/products-data.js'.
+================================================================================
